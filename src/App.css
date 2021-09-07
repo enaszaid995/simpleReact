@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Nav {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 0px;
+}
+.Nav ul li{
+  list-style: none;
+  display: inline;
+  padding: 30px;
+
+  margin-top: 100px;
+}
+.Nav ul li a{
+  color: white;
+  text-decoration: none;
+} 
+.Nav ul li a:hover{
+  color: red;
+}
+.logo{
+  font-size: x-large;
+  margin-right: 100px;
+  font-weight: bolder;
+  color: red;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.About{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 20px 0px;
+}
+.About span{
+  color: red;
+  font-size: 30px;
+}
+.headService{
+  padding: 20px;
+  color: red;
+}
+.service{
+  padding-bottom: 50px;
+}
+.service a{
+  padding: 20px 60px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 3px 3px 3px lightslategray;
+  margin:30px;
+}
+.service a:hover{
+  background-color:rgb(240, 206, 206);
+}
+.formm{
+  text-align: left;
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+.formm label{
+  font-weight: 600;
+  padding-right: 10px;
+}
+.formm input[type=email]{
+  border:  1px solid lightgray;
+  width: 50%;
+  padding:10px 150px;
+}
+.formm textarea{
+  margin-top: 10px;
+  margin-left: 100px;
+  
+  border:  1px solid lightgray;
+}
+.formm button{
+  margin-top: 10px;
+  padding: 10px 80px;
+  margin-left: 530px;
+  background-color: rgb(22, 177, 73);
+  border: none;
+  color: white;
+}
+.formm button:hover{
+  background-color: rgb(68, 209, 115);
+}
+.logoo span{
+  color: red;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
